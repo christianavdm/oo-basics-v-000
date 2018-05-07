@@ -8,7 +8,7 @@ class Book
     @title
   end
   
-  attr_accessor :author_name, :page_count, :genre
+  attr_accessor :author, :page_count, :genre
   
   def turn_page
     puts "page turned"
