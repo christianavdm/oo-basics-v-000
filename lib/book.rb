@@ -5,6 +5,7 @@ class Book
   end
   
   def title
+    @title
   end
   
   attr_accessor :author_name, :page_count, :genre
